@@ -167,3 +167,34 @@ footer{
         margin:30px 10px 20px 10px;
     }
 }
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #181a1b;
+        color: #c5c0b8;
+    }
+    .englishlogotext{
+        color: #c5c0b8;
+    }
+    .arabiclogotext
+    {
+        color: #c5c0b8;
+    }
+    .headerlinks{
+        color: #c5c0b8;
+    }
+    .hello{
+        color: #c5c0b8;
+    }
+    p{
+        color: #c5c0b8;
+    }
+    .link-paragraph{
+        color: #c5c0b8!important;
+    }
+    .socialmedia a{
+        color: #c5c0b8;
+    }
+    .copyright{
+        color: #c5c0b8;
+    }
+}
