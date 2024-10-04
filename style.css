@@ -20,6 +20,9 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+h2{
+font-family: 'Bogue';font-size: 3.5em;text-align: center;
+}
 
 @media (max-width: 768px) {
     .mainsection {
