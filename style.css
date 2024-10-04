@@ -1,0 +1,26 @@
+.mainsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainpic{
+    max-width: 50%;
+    height: 80%;
+}
+.maintext{
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .mainsection {
+        display: block; /* Stacks the image and text vertically */
+        text-align: center; /* Optional: centers the text */
+    }
+    .mainpic {
+        margin-bottom: 20px; /* Adds space between the image and the text */
+        max-width: 90%;
+    }
+    .maintext {
+        margin-left: 0; /* Removes the left margin for mobile */
+    }
+}
