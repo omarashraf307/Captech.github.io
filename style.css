@@ -51,6 +51,7 @@ font-family: 'Bogue';font-size: 3.5em;text-align: center;
     .header{
         display: inline;
         margin-left: 0;
+        max-width:100%;
     }
     .links{
         display: none;
