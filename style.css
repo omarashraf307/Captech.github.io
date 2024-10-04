@@ -1,14 +1,18 @@
+
 .mainsection{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .mainpic{
-    max-width: 50%;
-    height: 80%;
+    max-width: 40%;
+    max-height: 50%;
+    border-radius: 20px;
+    margin: 20px;
 }
 .maintext{
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 @media (max-width: 768px) {
@@ -22,5 +26,6 @@
     }
     .maintext {
         margin-left: 0; /* Removes the left margin for mobile */
+        margin-right: 0;
     }
 }
