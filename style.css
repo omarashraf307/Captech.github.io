@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: 'Century Gothic'; /* Name of the font */
-    src:url('fonts/Gothic.ttf') format('truetype'); /* Path to the font files */
+    src:url('fonts/Gothic.TTF') format('truetype'); /* Path to the font files */
     font-weight: normal;
     font-style: normal;
 }
