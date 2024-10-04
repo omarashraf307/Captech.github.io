@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Bogue'; /* Name of the font */
+    src:url('fonts/Bogue.ttf') format('truetype'); /* Path to the font files */
+    font-weight: normal;
+    font-style: normal;
+}
 
 .mainsection{
     display: flex;
