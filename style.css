@@ -47,6 +47,7 @@ font-family: 'Bogue';font-size: 3.5em;text-align: center;
     .maintext {
         margin-left: 0; /* Removes the left margin for mobile */
         margin-right: 0;
+        padding-bottom:20px;
     }
     .header{
         display: inline;
