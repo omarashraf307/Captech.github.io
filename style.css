@@ -158,6 +158,9 @@ footer{
         margin-right:15px;
         margin-left:15px;
     }
+    .link-paragraph{
+        font-weight:bold;
+    }
     .end{
         display: block;
         align-items: center;
