@@ -85,6 +85,9 @@ color: #2b3c44;
 p{
     color: #2b3c44;
 }
+.link-paragraph{
+        font-weight:bold;
+}
 footer{
     margin: 0 50px ;
 }
@@ -157,9 +160,6 @@ footer{
         margin-bottom:0px;
         margin-right:15px;
         margin-left:15px;
-    }
-    .link-paragraph{
-        font-weight:bold;
     }
     .end{
         display: block;
