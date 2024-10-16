@@ -16,6 +16,11 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'MADE Dillan'; /* Name of the font */
+    src:url('fonts/MADE Dillan.otf') format('opentype'); /* Path to the font files */
+    font-weight: normal;
+    font-style: normal;
 .header{
     display: flex;
 }
@@ -62,7 +67,7 @@
     margin-right: 20px;
 }
 .hello{
-font-family: 'Bogue';font-size: 90px;text-align: left;
+font-family: 'MADE Dillan';font-size: 90px;text-align: left;
 margin-top: 0px;
 margin-bottom: 0px;
 color: #2b3c44;
@@ -77,7 +82,7 @@ color: #2b3c44;
 }
 .headerlinks{
     margin-left: 30px;
-    font-family:'Bogue' ;
+    font-family:'MADE Dillan' ;
     text-decoration: none;
     color: #2b3c44;
     font-size: 1.2em;                
@@ -102,7 +107,7 @@ footer{
     margin: 5px;
 }
 .copyright{
-    font-family: 'Bogue';
+    font-family: 'MADE Dillan';
     color: #2b3c44;
     font-size: 14px;
 }
