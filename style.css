@@ -21,6 +21,7 @@
     src:url('fonts/MADE Dillan.otf') format('opentype'); /* Path to the font files */
     font-weight: normal;
     font-style: normal;
+}
 .header{
     display: flex;
 }
