@@ -22,6 +22,10 @@
     font-weight: normal;
     font-style: normal;
 }
+body{
+    background-color: #F3FFFB;
+    /* background-color: white; */
+}
 
 .wrapper {
     display: flex;
@@ -231,32 +235,32 @@ footer {
 }
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #181a1b;
-        color: #c5c0b8;
+        background-color: #121E1C;
+        color: #C3D2CD;
     }
     .englishlogotext{
-        color: #c5c0b8;
+        color: #C3D2CD;
     }
     .arabiclogotext
     {
-        color: #c5c0b8;
+        color: #C3D2CD;
     }
     .headerlinks{
-        color: #c5c0b8;
+        color: #C3D2CD;
     }
     .hello{
-        color: #c5c0b8;
+        color: #C3D2CD;
     }
     p{
-        color: #c5c0b8;
+        color: #C3D2CD;
     }
     .link-paragraph{
-        color: #c5c0b8!important;
+        color: #C3D2CD!important;
     }
     .socialmedia a{
-        color: #c5c0b8;
+        color: #C3D2CD;
     }
     .copyright{
-        color: #c5c0b8;
+        color: #C3D2CD;
     }
 }
