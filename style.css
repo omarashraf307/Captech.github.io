@@ -22,98 +22,151 @@
     font-weight: normal;
     font-style: normal;
 }
-.header{
+
+.wrapper {
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} 
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    margin-left:5%;
+    margin-right:5%;
 }
 .logo{
-    display: flex;
-    align-items: center;
-    max-width: 50%;
-    margin-left: 70px;
+    display:flex;
 }
-.logoimg{
-    margin: 20px;
+.logoimg {
+    margin: 15px;
     max-width: 100px;
     max-height: 100px;
+    position: relative;
+    transition: 500ms;
 }
-.englishlogotext{
+
+.logoimg:hover {
+    margin-left: 30px;
+}
+.logotext{
+    align-content: center;
+}
+.englishlogotext {
     font-family: 'Century Gothic';
     color: #2b3c44;
     font-size: 1.6em;
     margin-bottom: 0px;
 }
-.arabiclogotext{
+
+.arabiclogotext {
     font-family: 'Dubai';
     color: #2b3c44;
     font-size: 1.6em;
     margin-top: 0px;
-
 }
-.mainsection{
-    display:flex;
+
+.links{
+    display: flex;
+    margin-right: 20px;
     align-items: center;
-    justify-content: space-between;
-    max-width: 80%;
-    margin: auto;
-
 }
-.mainpic{
+
+.headerlinks{
+    margin-top: -20px;
+    padding-left: 30px;
+    transition: 500ms;
+    font-family: 'MADE Dillan';
+    text-decoration: none;
+    color: #2b3c44;
+    font-size: 1.2em;
+}
+
+.headerlinks:hover{
+    margin-top:-25px;
+}
+
+section{
+    flex:1;
+}
+
+.mainsection{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: 20px auto;
+    flex: 1;
+}
+
+.mainpic {
     max-width: 40%;
     max-height: 40%;
     border-radius: 20px;
     margin: 20px;
+    position:relative;
+    transition: 500ms;
 }
-.maintext{
+
+.mainpic:hover{
+    transform: translateY(10px);
+
+}
+
+.maintext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-left: 20px;
     margin-right: 20px;
 }
-.hello{
-font-family: 'MADE Dillan';font-size: 90px;text-align: left;
-margin-top: 0px;
-margin-bottom: 0px;
-color: #2b3c44;
-}
-.links{
-    display: inline-block;
-    margin-top: 50px;
+
+.hello {
+        font-family: 'MADE Dillan';
+    font-size: 90px;
     text-align: left;
-    margin-right: 40px;
-    margin-left: auto;
-    max-width: 50%;
-}
-.headerlinks{
-    margin-left: 30px;
-    font-family:'MADE Dillan' ;
-    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
     color: #2b3c44;
-    font-size: 1.2em;                
+    transition: 500ms;
 }
-p{
+
+.hello:hover {
+    margin-left: 10px;
+}
+
+p {
     color: #2b3c44;
 }
-.link-paragraph{
-        font-weight:bold;
+
+.link-paragraph {
+    font-weight: bold;
 }
-footer{
-    margin: 0 50px ;
+
+footer {
+    position: relative;
+    width: 90%;
+    left:5%;
+    padding-bottom: 3%;
 }
+
 .end{
     display: flex;
     justify-content: space-between;
 }
-.socialmedia a{
+
+.socialmedia a {
     align-items: center;
-    color:#2b3c44;
+    color: #2b3c44;
     text-decoration: none;
     margin: 5px;
 }
-.copyright{
+
+.copyright {
     font-family: 'MADE Dillan';
     color: #2b3c44;
     font-size: 14px;
 }
-
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
     
     .mainsection {
         display: block; /* Stacks the image and text vertically */
